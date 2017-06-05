@@ -2,6 +2,8 @@
   <div>
     <h2>{{title}}</h2>
     {{content}}
+  <h3> testing state value (from State Vuex)</h3>
+   <p> My State Count : {{ this.$store.state.count }}</p>
    <h3> render an element multiple times based on source data (v-for)</h3>
     <ul>
         <li v-for="user in users">
